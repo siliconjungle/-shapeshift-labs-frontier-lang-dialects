@@ -239,7 +239,7 @@ export declare function summarizeUniversalDialectRegistry(input?: Pick<Universal
 export declare function createUniversalDialectLayer(
   universalAst: FrontierUniversalAstEnvelope,
   registry: UniversalDialectRegistry
-): FrontierUniversalAstEnvelope['layers'][string];
+): NonNullable<FrontierUniversalAstEnvelope['layers']>[string];
 export declare function attachUniversalDialectRegistry(
   universalAst: FrontierUniversalAstEnvelope,
   input?: UniversalDialectRegistryInput | UniversalDialectRegistry

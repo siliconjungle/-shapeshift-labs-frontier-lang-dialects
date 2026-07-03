@@ -1,6 +1,6 @@
 {
   "name": "@shapeshift-labs/frontier-lang-dialects",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Runtime-neutral dialect and projection evidence records for Frontier Lang semantic graphs.",
   "type": "module",
   "main": "./dist/index.js",
@@ -50,7 +50,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@shapeshift-labs/frontier-lang-kernel": "0.3.12"
+    "@shapeshift-labs/frontier-lang-kernel": "0.3.13"
   },
   "devDependencies": {
     "typescript": "^5.9.3"
